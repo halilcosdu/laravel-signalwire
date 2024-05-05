@@ -5,11 +5,17 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/halilcosdu/laravel-signalwire/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/halilcosdu/laravel-signalwire/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/halilcosdu/laravel-signalwire.svg?style=flat-square)](https://packagist.org/packages/halilcosdu/laravel-signalwire)
 
-Laravel SignalWire package provides a Laravel-friendly interface for interacting with the SignalWire API, a cloud communication platform that offers services like voice, messaging, and video.  The package offers a variety of methods to interact with different aspects of the SignalWire services:  
-Fax Operations: You can send, receive, update, and delete faxes. This includes methods like faxes, sendFax, getFax, updateFax, and deleteFax.  
-Phone Numbers: You can list, create, update, and delete incoming phone numbers. This includes methods like listIncomingPhoneNumbers, createIncomingPhoneNumbers, getIncomingPhoneNumber, updateIncomingPhoneNumber, deleteIncomingPhoneNumber, and getAvailablePhoneNumbers.  
-Fax Media: You can manage media related to faxes. This includes methods like faxMedias, getFaxMedia, and deleteFaxMedia.  
-The package uses the Facade pattern, which means you can access all these methods statically via the SignalWire facade. This makes it easy to use the SignalWire services in your Laravel application.
+Send Fax From Laravel package provides a Laravel-friendly interface for interacting with the SignalWire API, a cloud communication platform that offers services like voice, messaging, and video.
+
+The package offers a variety of methods to interact with different aspects of the SignalWire services:
+
+- Fax Operations: You can send, receive, update, and delete faxes. This includes methods like `faxes`, `sendFax`, `getFax`, `updateFax`, and `deleteFax`.
+
+- Phone Numbers: You can list, create, update, and delete incoming phone numbers. This includes methods like `listIncomingPhoneNumbers`, `createIncomingPhoneNumbers`, `getIncomingPhoneNumber`, `updateIncomingPhoneNumber`, `deleteIncomingPhoneNumber`, and `getAvailablePhoneNumbers`.
+
+- Fax Media: You can manage media related to faxes. This includes methods like `faxMedias`, `getFaxMedia`, and `deleteFaxMedia`.
+
+The package uses the Facade pattern, which means you can access all these methods statically via the `SignalWire` facade. This makes it easy to use the SignalWire services in your Laravel application.
 
 ## Installation
 
