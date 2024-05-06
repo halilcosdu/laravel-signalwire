@@ -11,7 +11,7 @@ The package offers a variety of methods to interact with different aspects of th
 
 - Fax Operations: You can send, receive, update, and delete faxes. This includes methods like `faxes`, `sendFax`, `getFax`, `updateFax`, and `deleteFax`.
 
-- Phone Numbers: You can list, create, update, and delete incoming phone numbers. This includes methods like `listIncomingPhoneNumbers`, `createIncomingPhoneNumbers`, `getIncomingPhoneNumber`, `updateIncomingPhoneNumber`, `deleteIncomingPhoneNumber`, and `getAvailablePhoneNumbers`.
+- Phone Numbers: You can list, create, update, and delete incoming phone numbers. This includes methods like `listIncomingPhoneNumbers`, `createIncomingPhoneNumber`, `getIncomingPhoneNumber`, `updateIncomingPhoneNumber`, `deleteIncomingPhoneNumber`, and `getAvailablePhoneNumbers`.
 
 - Fax Media: You can manage media related to faxes. This includes methods like `faxMedias`, `getFaxMedia`, and `deleteFaxMedia`.
 
