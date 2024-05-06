@@ -59,7 +59,7 @@ SignalWire::updateFax(string $sid, string $status)
 
 SignalWire::deleteFax(string $sid)
 
-// Phone Numbers
+// Phone Number Operations
 SignalWire::listIncomingPhoneNumbers(?string $beta = null, ?string $friendlyName = null, ?string $origin = null, ?string $phoneNumber = null)
 
 SignalWire::createIncomingPhoneNumber(string $areaCode, string $phoneNumber, ?string $addressSid = null, ?string $friendlyName = null, ?string $identitySid = null, ?string $smsApplicationSid = null, ?string $smsFallbackMethod = null, ?string $smsFallbackUrl = null, ?string $smsMethod = null, ?string $smsUrl = null, ?string $statusCallback = null, ?string $statusCallbackMethod = null, ?string $trunkSid = null, ?string $voiceApplicationSid = null, bool $voiceCallerIdLookup = false, ?string $voiceFallbackMethod = null, ?string $voiceFallbackUrl = null, ?string $voiceMethod = null, string $voiceReceiveMode = 'fax', ?string $voiceUrl = null)
@@ -70,6 +70,7 @@ SignalWire::updateIncomingPhoneNumber(string $phoneNumberSid, string $friendlyNa
 
 SignalWire::deleteIncomingPhoneNumber(string $phoneNumberSid)
 
+// Available Numbers to Buy
 SignalWire::getAvailablePhoneNumbers(string $isoCountry, ?string $areaCode, bool $beta = false, ?string $contains = null, bool $excludeAllAddressRequired = false, bool $excludeLocalAddressRequired = false, bool $faxEnabled = false, string $inRegion = null, bool $mmsEnabled = false, bool $voiceEnabled = false)
 
 // Fax Media
