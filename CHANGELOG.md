@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-signalwire` will be documented in this file.
 
+## v1.0.1 - 2024-05-06
+
+**Full Changelog**: https://github.com/halilcosdu/laravel-signalwire/compare/v1.0.0...v1.0.1
+
 ## v1.0.0 - 2024-05-05
 
 ### What's Changed
