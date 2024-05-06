@@ -42,7 +42,7 @@ class SignalWire
         return $this->phoneNumberService->listIncomingPhoneNumbers($beta, $friendlyName, $origin, $phoneNumber);
     }
 
-    public function createIncomingPhoneNumbers(
+    public function createIncomingPhoneNumber(
         string $areaCode,
         string $phoneNumber,
         ?string $addressSid = null,
@@ -64,7 +64,7 @@ class SignalWire
         string $voiceReceiveMode = 'fax',
         ?string $voiceUrl = null
     ) {
-        return $this->phoneNumberService->createIncomingPhoneNumbers(
+        return $this->phoneNumberService->createIncomingPhoneNumber(
             $areaCode,
             $phoneNumber,
             $addressSid,

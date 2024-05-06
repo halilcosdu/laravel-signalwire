@@ -24,7 +24,7 @@ class PhoneNumberService
     /*
      * https://developer.signalwire.com/compatibility-api/rest/create-an-incoming-phone-number
      */
-    public function createIncomingPhoneNumbers(
+    public function createIncomingPhoneNumber(
         string $areaCode,
         string $phoneNumber,
         ?string $addressSid = null,

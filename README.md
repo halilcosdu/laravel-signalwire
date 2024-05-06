@@ -62,7 +62,7 @@ SignalWire::deleteFax(string $sid)
 // Phone Numbers
 SignalWire::listIncomingPhoneNumbers(?string $beta = null, ?string $friendlyName = null, ?string $origin = null, ?string $phoneNumber = null)
 
-SignalWire::createIncomingPhoneNumbers(string $areaCode, string $phoneNumber, ?string $addressSid = null, ?string $friendlyName = null, ?string $identitySid = null, ?string $smsApplicationSid = null, ?string $smsFallbackMethod = null, ?string $smsFallbackUrl = null, ?string $smsMethod = null, ?string $smsUrl = null, ?string $statusCallback = null, ?string $statusCallbackMethod = null, ?string $trunkSid = null, ?string $voiceApplicationSid = null, bool $voiceCallerIdLookup = false, ?string $voiceFallbackMethod = null, ?string $voiceFallbackUrl = null, ?string $voiceMethod = null, string $voiceReceiveMode = 'fax', ?string $voiceUrl = null)
+SignalWire::createIncomingPhoneNumber(string $areaCode, string $phoneNumber, ?string $addressSid = null, ?string $friendlyName = null, ?string $identitySid = null, ?string $smsApplicationSid = null, ?string $smsFallbackMethod = null, ?string $smsFallbackUrl = null, ?string $smsMethod = null, ?string $smsUrl = null, ?string $statusCallback = null, ?string $statusCallbackMethod = null, ?string $trunkSid = null, ?string $voiceApplicationSid = null, bool $voiceCallerIdLookup = false, ?string $voiceFallbackMethod = null, ?string $voiceFallbackUrl = null, ?string $voiceMethod = null, string $voiceReceiveMode = 'fax', ?string $voiceUrl = null)
 
 SignalWire::getIncomingPhoneNumber(string $phoneNumberSid)
 
